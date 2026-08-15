@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="K?H_|N[bFB6oQR~L`Zf-" x="13" y="-158"></block><block type="pxt-on-start" id="GhbMmembc.}V^7oa|,,8" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="Z5|FWy2_H-p,ekk)zDh8"><value name="text"><shadow type="text" id=",*@#Ib9Z{(^Cf`ZJTA-G"><field name="TEXT">HOLA</field></shadow></value><next><block type="device_show_leds" id="F@YWM5#^e72U-pnA(@W4"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="music_playable_play_default_bkg" id="dN9|n5dUw)``lY3u1t?4"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="/u[t!@m4WkpkcgHBPbX|"><field name="melody">Melodies.Dadadadum</field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="0yYh`XL/Dtz7X1HSh.Is" x="579" y="276"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="music_playable_play_default_bkg" id="/)N}P4(B1RfG6Y:CyZ=p"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="device_builtin_melody_playable" id="NYnE~{AX.J^deZ1tj_0k"><field name="melody">Melodies.Prelude</field></shadow></value><next><block type="device_show_leds" id="Vh6]_[_JB{3(D+eb*o~8"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # . # # 
+        # . # . # 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="H#*0ht)rL7Fv%B;@B7i*" x="0" y="416"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="music_playable_play" id="jV=(_~`*AA0sm+^En(hY"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="Kc`=Vp_JoF}Te9ss}%^S"><field name="soundExpression">soundExpression.giggle</field></shadow></value><next><block type="basic_show_icon" id="dG2t|^01MVT!k80S_r[z"><field name="i">IconNames.Square</field></block></next></block></statement></block><block type="device_button_event" id="SzYXEVQk[AELJ/Z_Uz}q" x="40" y="614"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_stop_melody" id="$+h+Q]lamJM6+oUbG;Aa"><field name="options">MelodyStopOptions.All</field><next><block type="basic_show_icon" id="qa--`$3AtUM}09OsR;D$"><field name="i">IconNames.No</field></block></next></block></statement></block></xml>
